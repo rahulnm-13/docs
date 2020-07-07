@@ -28,7 +28,7 @@ When your app needs to fetch user data from your API:
 2. The user authenticates with Auth0 using one of your configured login options (e.g., username/password, social identity provider, <dfn data-key="security-assertion-markup-language">SAML</dfn>).
 3. Your app requests an ID Token, Access Token, and <dfn data-key="refresh-token">Refresh Token</dfn>.
 4. Auth0 responds with the requested tokens.
-5. The Access Token can be used to call your API and retrieve requested data.
+5. The Access Token can be used to call your API and retrieve the requested data.
 
 For security in native/mobile devices, Auth0 uses the [Authorization Code Flow with Proof Key for Code Exchange (PKCE)](/flows/concepts/auth-code-pkce).
 
@@ -78,7 +78,7 @@ Finally, to use our API endpoints, you can follow our tutorial: [Call Your API U
 
 ::::
 
-::: whats-next
+::: what's-next
   * Auth0 offers many ways to personalize your user's login experience and customize tokens using [rules](/rules) and [hooks](/hooks).
   * If you are building your own API and you want to secure the endpoints using Auth0, see [Protect Your API](/microsites/protect-api/protect-api).
   * If you would like to make your native/mobile app work with input-constrained devices, see [Call Your API from an Input-Constrained Device](/microsites/call-api/call-api-device).
